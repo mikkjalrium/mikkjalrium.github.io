@@ -1,0 +1,1652 @@
+﻿[
+    {
+        "card_name": "Professionalism",
+        "number": 26,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Gamayun of the Last Word",
+        "number": 52,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Necrodancer Witch",
+        "number": 112,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Rarog, the Ever-Ember",
+        "number": 152,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Ancient Leshy",
+        "number": 169,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Wheel of Time",
+        "number": 41,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Lysette, Stars Unbound",
+        "number": 59,
+        "shape": "planeswalker",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Zmey, Warden of Nawia",
+        "number": 126,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Tibalt, Crossroads Dealmaker",
+        "number": 158,
+        "shape": "planeswalker",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Master of the Wild Hunt",
+        "number": 191,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Dazhbog's Presence",
+        "number": 5,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Glimpse of the Multiverse",
+        "number": 53,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Cadaverine Viper",
+        "number": 90,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Belogrod Lajkonik",
+        "number": 128,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Zyvia, Springing Bloom",
+        "number": 210,
+        "shape": "planeswalker",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Descendant Invoker",
+        "number": 6,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Gravity Pull",
+        "number": 54,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Defilement",
+        "number": 96,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Harvest Devil",
+        "number": 141,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Badlands Pummeler",
+        "number": 171,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Ghostlight Trickster",
+        "number": 13,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Sinking of Switezh",
+        "number": 69,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Lichemist",
+        "number": 106,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Kupala Pyromancer",
+        "number": 142,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Devanna's Presence",
+        "number": 177,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Istvan, Brave Huntsman",
+        "number": 18,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Sow the Wind",
+        "number": 70,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Morena's Presence",
+        "number": 110,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "The Nemeton",
+        "number": 144,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Grove Gnarlid",
+        "number": 181,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Queen of the Harvest",
+        "number": 27,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Stribog's Presence",
+        "number": 74,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Popiel, the Rat King",
+        "number": 114,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Pagan Iconoclast",
+        "number": 146,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Huntsman's Bestiary",
+        "number": 186,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Rustic Study",
+        "number": 28,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Swan Queen",
+        "number": 75,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Resolute Huntsman",
+        "number": 116,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Perun's Presence",
+        "number": 149,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Sewer Zeugl",
+        "number": 199,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Spiritual Intervention",
+        "number": 31,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Swift Rusalka",
+        "number": 76,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Skorup, Immortal Shell",
+        "number": 118,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Syr Twardoch, Devil's Patron",
+        "number": 156,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Sylvan Genesis",
+        "number": 202,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Wandering Healer",
+        "number": 40,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Undercourt Tutor",
+        "number": 80,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Turn Undead",
+        "number": 123,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Traitor to Humankind",
+        "number": 161,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Wila Caretaker",
+        "number": 205,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Dazhbog Charm",
+        "number": 3,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Bearification",
+        "number": 43,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Black Rooster",
+        "number": 86,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Badlands Witch",
+        "number": 127,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Zielenn Zhret",
+        "number": 209,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Forlorn Souls",
+        "number": 12,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Belogrod Feldsher",
+        "number": 44,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Blightmaker",
+        "number": 87,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Deadwish Huntsman",
+        "number": 133,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Bear Fruit",
+        "number": 172,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Heartfelt Visitation",
+        "number": 15,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Dissipate",
+        "number": 47,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Grave Secret",
+        "number": 101,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Equinox Fires",
+        "number": 136,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Devanna Charm",
+        "number": 175,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Knight of Pagonia",
+        "number": 19,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Eventide Kelpie",
+        "number": 49,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Grim Augur",
+        "number": 102,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "On Wild Hunt",
+        "number": 145,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Drowning of Morena",
+        "number": 178,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Nawian Psychopomp",
+        "number": 23,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Harbinger Crow",
+        "number": 56,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Grim Hunt",
+        "number": 103,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Perun Charm",
+        "number": 147,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Equinox Harbinger",
+        "number": 180,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Silverblade Huntsman",
+        "number": 29,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Impersonate",
+        "number": 57,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Haunting Party",
+        "number": 104,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Rabid Wererat",
+        "number": 151,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Heart of the Hive",
+        "number": 184,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Sontsivka Spellweaver",
+        "number": 30,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Misty Stampede",
+        "number": 62,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Morena Charm",
+        "number": 108,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Skrzak Gang",
+        "number": 154,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Life from Death",
+        "number": 189,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Steel for Humans",
+        "number": 32,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Mournful Watcher",
+        "number": 64,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Nocturnal Striga",
+        "number": 113,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Sontsivka Bushmaster",
+        "number": 155,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Life's Legacy",
+        "number": 190,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Swift Huntress",
+        "number": 33,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Nenufar Darter",
+        "number": 65,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Population Control",
+        "number": 115,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Tracking Bolt",
+        "number": 160,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Oakcritters",
+        "number": 195,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Thundering Spirit",
+        "number": 34,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Stribog Charm",
+        "number": 72,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Silver for Monsters",
+        "number": 117,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Tug at the Heartstrings",
+        "number": 162,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Oneiromancer",
+        "number": 197,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Vagabund Storyteller",
+        "number": 36,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Switezh Schoolmaster",
+        "number": 77,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Smiercios, Mistress of Death",
+        "number": 119,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Underkeep Drake",
+        "number": 164,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Thing in the Woods",
+        "number": 203,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Vox Populi",
+        "number": 39,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Thirst for Survival",
+        "number": 78,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Soul Amalgam",
+        "number": 120,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Until Last Ember Fades",
+        "number": 165,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Vain Lamia",
+        "number": 204,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Zhycios, Mistress of Life",
+        "number": 42,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Underwater Court",
+        "number": 81,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Tormenting Likho",
+        "number": 122,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Young Diabolist",
+        "number": 168,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Wolven Storm",
+        "number": 207,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Ancestral Offering",
+        "number": 1,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Buyan Leviathan",
+        "number": 45,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Belogrod Stalker",
+        "number": 85,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Bomb Throw",
+        "number": 129,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Zielenn Dryad",
+        "number": 208,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Belogrod Griffin",
+        "number": 2,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Dirge for the Departed",
+        "number": 46,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Bogbound",
+        "number": 88,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Chortling",
+        "number": 130,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Arboreal Larva",
+        "number": 170,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Dazhbog's Gaze",
+        "number": 4,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Diver Drowner",
+        "number": 48,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Bonespinning",
+        "number": 89,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Civic Huntsman",
+        "number": 131,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Carnivorous Bloom",
+        "number": 173,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Disable",
+        "number": 7,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Fend Off the Evil Glare",
+        "number": 50,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Chernogaj Coven",
+        "number": 91,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Crib Sweep",
+        "number": 132,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Countryside Lindwurm",
+        "number": 174,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Eternal Bonds",
+        "number": 8,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Foglets",
+        "number": 51,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Chironex",
+        "number": 92,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Duck Hunter",
+        "number": 134,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Devanna's Boon",
+        "number": 176,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Faithless Exorcist",
+        "number": 9,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Grim Prognosis",
+        "number": 55,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Circle of Death",
+        "number": 93,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Equinox Festival",
+        "number": 135,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Equinox Celebrant",
+        "number": 179,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Fighting Spirit",
+        "number": 10,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Lubberkin",
+        "number": 58,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Cremate",
+        "number": 94,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Fading Ember-Bird",
+        "number": 137,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Hangry Bear",
+        "number": 182,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Forefathers' Guidance",
+        "number": 11,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Midnight Dancers",
+        "number": 60,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Crowmarsh Sybil",
+        "number": 95,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Fateweaver Rusalka",
+        "number": 138,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Haunt's End",
+        "number": 183,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Grandfather Moroz",
+        "number": 14,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Migratory Stork",
+        "number": 61,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Depart to Nawia",
+        "number": 97,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Fling",
+        "number": 139,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Hunting Territory",
+        "number": 185,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Henhouse Burglar",
+        "number": 16,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Moonlit Gamayun",
+        "number": 63,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Doomed Wanderer",
+        "number": 98,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Grave Looter",
+        "number": 140,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Leshy's Varmint",
+        "number": 187,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Intrepid Bogatyr",
+        "number": 17,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Otherworldly Possession",
+        "number": 66,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Dreadful Kikimora",
+        "number": 99,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Meteoric Ore Blade",
+        "number": 143,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Lesser Leshy",
+        "number": 188,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Lost Child",
+        "number": 20,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Path to Infinity",
+        "number": 67,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Forefathers' Eve",
+        "number": 100,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Perun's Lightning",
+        "number": 148,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Mire Reclamation",
+        "number": 192,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Lowlands Harvester",
+        "number": 21,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Rune Volkhv",
+        "number": 68,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Lake Lurker",
+        "number": 105,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Quilled Boar",
+        "number": 150,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Moulder",
+        "number": 193,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Monster Contract",
+        "number": 22,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Spirited Away",
+        "number": 71,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Midnight Wraith",
+        "number": 107,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "She-Wolf",
+        "number": 153,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Necrogrowth Horror",
+        "number": 194,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Noonwraith Bride",
+        "number": 24,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Stribog's Breath",
+        "number": 73,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Morena's Grasp",
+        "number": 109,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Thrill of Possibility",
+        "number": 157,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Old-Growth Longlegs",
+        "number": 196,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Novice Huntsman",
+        "number": 25,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Undercourt Trickster",
+        "number": 79,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Mutual Destruction",
+        "number": 111,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Tiger Fiend",
+        "number": 159,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Pollenbeast",
+        "number": 198,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Turnip Smuggler",
+        "number": 35,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Undine's Snare",
+        "number": 82,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Spectral Barghest",
+        "number": 121,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Twig Shrapnel",
+        "number": 163,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Springtide Seer",
+        "number": 200,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Veil Breacher",
+        "number": 37,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Vodyanoi's Prey",
+        "number": 83,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Village Rites",
+        "number": 124,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Whim",
+        "number": 166,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Struggle for Survival",
+        "number": 201,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Village Pellar",
+        "number": 38,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Young Zagovorka",
+        "number": 84,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Yaga's Thrall",
+        "number": 125,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Yaremcha Houndmaster",
+        "number": 167,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Wintry Hibernation",
+        "number": 206,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Zyvia's Twofold Path",
+        "number": 211,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Nawian Gamayun",
+        "number": 223,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Nightmare Mirror",
+        "number": 224,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Fiendish Tutor",
+        "number": 219,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Collateral Takedown",
+        "number": 216,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Adaptive Fungus",
+        "number": 212,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Royal Apparition",
+        "number": 226,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Tactical Shark Chariot",
+        "number": 229,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Chernogaj Chort",
+        "number": 215,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Alkonost Caretaker",
+        "number": 213,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Seasoned Lumberjack",
+        "number": 227,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Death of the Deathless",
+        "number": 217,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Wicked Man",
+        "number": 231,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Foreman of Rot",
+        "number": 220,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Waligora and the Reavers",
+        "number": 230,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Bartek, Living Lore",
+        "number": 214,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Grave Warden",
+        "number": 233,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Medean Medusa",
+        "number": 235,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Necrodivination",
+        "number": 237,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Haze of Wrath",
+        "number": 234,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Natural Convergence",
+        "number": 236,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Outcast Zhret",
+        "number": 225,
+        "shape": "adventure",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Merfolk Magician",
+        "number": 222,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Sewer Swarm Queen",
+        "number": 228,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Witchhunter Veteran",
+        "number": 232,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Dryad Tutor",
+        "number": 218,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Jaga, Witch o' the Woods",
+        "number": 221,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Fern Flower",
+        "number": 239,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Endless Graves",
+        "number": 238,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Seven-League Boots",
+        "number": 242,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Jump Scarecrow",
+        "number": 240,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Peasant's Scythe",
+        "number": 241,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Soul-Trap Ward",
+        "number": 243,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Triglaw Shrine",
+        "number": 244,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Witch's Mirror",
+        "number": 245,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->land",
+    {
+        "card_name": "Litter Cottage",
+        "number": 250,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Hermit Hideout",
+        "number": 248,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Hut of Horrors",
+        "number": 249,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Bald Mountain",
+        "number": 246,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Creeping Homestead",
+        "number": 247,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Valley of Death",
+        "number": 251,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "Wayfarer's Shrine",
+        "number": 252,
+        "shape": "normal",
+        "set": "ZOR"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

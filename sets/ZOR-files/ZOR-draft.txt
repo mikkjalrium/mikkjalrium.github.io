@@ -1,0 +1,2779 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Henhouse Burglar",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Fox",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/16_Henhouse Burglar.jpg"
+			}
+		},
+		{
+			"name": "Village Pellar",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/38_Village Pellar.jpg"
+			}
+		},
+		{
+			"name": "Veil Breacher",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/37_Veil Breacher.jpg"
+			}
+		},
+		{
+			"name": "Novice Huntsman",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/25_Novice Huntsman.jpg"
+			}
+		},
+		{
+			"name": "Intrepid Bogatyr",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/17_Intrepid Bogatyr.jpg"
+			}
+		},
+		{
+			"name": "Eternal Bonds",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/8_Eternal Bonds.jpg"
+			}
+		},
+		{
+			"name": "Grandfather Moroz",
+			"rarity": "common",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/14_Grandfather Moroz.jpg"
+			}
+		},
+		{
+			"name": "Fighting Spirit",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/10_Fighting Spirit.jpg"
+			}
+		},
+		{
+			"name": "Forefathers' Guidance",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/11_Forefathers' Guidance.jpg"
+			}
+		},
+		{
+			"name": "Ancestral Offering",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/1_Ancestral Offering.jpg"
+			}
+		},
+		{
+			"name": "Lubberkin",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/58_Lubberkin.jpg"
+			}
+		},
+		{
+			"name": "Undercourt Trickster",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Merfolk Wizard",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/79_Undercourt Trickster.jpg"
+			}
+		},
+		{
+			"name": "Diver Drowner",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Zombie",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/48_Diver Drowner.jpg"
+			}
+		},
+		{
+			"name": "Migratory Stork",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/61_Migratory Stork.jpg"
+			}
+		},
+		{
+			"name": "Young Zagovorka",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/84_Young Zagovorka.jpg"
+			}
+		},
+		{
+			"name": "Buyan Leviathan",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Spirit Leviathan",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/45_Buyan Leviathan.jpg"
+			}
+		},
+		{
+			"name": "Otherworldly Possession",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/66_Otherworldly Possession.jpg"
+			}
+		},
+		{
+			"name": "Spirited Away",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/71_Spirited Away.jpg"
+			}
+		},
+		{
+			"name": "Undine's Snare",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/82_Undine's Snare.jpg"
+			}
+		},
+		{
+			"name": "Grim Prognosis",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/55_Grim Prognosis.jpg"
+			}
+		},
+		{
+			"name": "Bearification",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/43_Bearification.jpg"
+			}
+		},
+		{
+			"name": "Foglets",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Spirit Horror",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/51_Foglets.jpg"
+			}
+		},
+		{
+			"name": "Fend Off the Evil Glare",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/50_Fend Off the Evil Glare.jpg"
+			}
+		},
+		{
+			"name": "Doomed Wanderer",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Bard",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/98_Doomed Wanderer.jpg"
+			}
+		},
+		{
+			"name": "Black Rooster",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Bird",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/86_Black Rooster.jpg"
+			}
+		},
+		{
+			"name": "Chironex",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Unicorn",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/92_Chironex.jpg"
+			}
+		},
+		{
+			"name": "Nocturnal Striga",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/113_Nocturnal Striga.jpg"
+			}
+		},
+		{
+			"name": "Dreadful Kikimora",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/99_Dreadful Kikimora.jpg"
+			}
+		},
+		{
+			"name": "Depart to Nawia",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/97_Depart to Nawia.jpg"
+			}
+		},
+		{
+			"name": "Bonespinning",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/89_Bonespinning.jpg"
+			}
+		},
+		{
+			"name": "Village Rites",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/124_Village Rites.jpg"
+			}
+		},
+		{
+			"name": "Grave Secret",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/101_Grave Secret.jpg"
+			}
+		},
+		{
+			"name": "Silver for Monsters",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/117_Silver for Monsters.jpg"
+			}
+		},
+		{
+			"name": "Bogbound",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/88_Bogbound.jpg"
+			}
+		},
+		{
+			"name": "Forefathers' Eve",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/100_Forefathers' Eve.jpg"
+			}
+		},
+		{
+			"name": "Cremate",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/94_Cremate.jpg"
+			}
+		},
+		{
+			"name": "Skrzak Gang",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Goblin",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/154_Skrzak Gang.jpg"
+			}
+		},
+		{
+			"name": "She-Wolf",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Werewolf",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/153_She-Wolf.jpg"
+			}
+		},
+		{
+			"name": "Chortling",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Devil",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/130_Chortling.jpg"
+			}
+		},
+		{
+			"name": "Grave Looter",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Peasant",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/140_Grave Looter.jpg"
+			}
+		},
+		{
+			"name": "Yaremcha Houndmaster",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Peasant",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/167_Yaremcha Houndmaster.jpg"
+			}
+		},
+		{
+			"name": "On Wild Hunt",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/145_On Wild Hunt.jpg"
+			}
+		},
+		{
+			"name": "Tiger Fiend",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Beast",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/159_Tiger Fiend.jpg"
+			}
+		},
+		{
+			"name": "Duck Hunter",
+			"rarity": "common",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Giant",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/134_Duck Hunter.jpg"
+			}
+		},
+		{
+			"name": "Underkeep Drake",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Drake",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/164_Underkeep Drake.jpg"
+			}
+		},
+		{
+			"name": "Fateweaver Rusalka",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Spirit Nymph",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/138_Fateweaver Rusalka.jpg"
+			}
+		},
+		{
+			"name": "Crib Sweep",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/132_Crib Sweep.jpg"
+			}
+		},
+		{
+			"name": "Thrill of Possibility",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/157_Thrill of Possibility.jpg"
+			}
+		},
+		{
+			"name": "Whim",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/166_Whim.jpg"
+			}
+		},
+		{
+			"name": "Bomb Throw",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/129_Bomb Throw.jpg"
+			}
+		},
+		{
+			"name": "Meteoric Ore Blade",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/143_Meteoric Ore Blade.jpg"
+			}
+		},
+		{
+			"name": "Twig Shrapnel",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/163_Twig Shrapnel.jpg"
+			}
+		},
+		{
+			"name": "Arboreal Larva",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Insect",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/170_Arboreal Larva.jpg"
+			}
+		},
+		{
+			"name": "Hangry Bear",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Bear",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/182_Hangry Bear.jpg"
+			}
+		},
+		{
+			"name": "Equinox Celebrant",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/179_Equinox Celebrant.jpg"
+			}
+		},
+		{
+			"name": "Pollenbeast",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Wolf Plant",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/198_Pollenbeast.jpg"
+			}
+		},
+		{
+			"name": "Carnivorous Bloom",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Plant",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/173_Carnivorous Bloom.jpg"
+			}
+		},
+		{
+			"name": "Old-Growth Longlegs",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Spider Horror",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/196_Old-Growth Longlegs.jpg"
+			}
+		},
+		{
+			"name": "Springtide Seer",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/200_Springtide Seer.jpg"
+			}
+		},
+		{
+			"name": "Leshy's Varmint",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Treefolk Beast",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/187_Leshy's Varmint.jpg"
+			}
+		},
+		{
+			"name": "Lesser Leshy",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Treefolk",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/188_Lesser Leshy.jpg"
+			}
+		},
+		{
+			"name": "Zyvia's Twofold Path",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/211_Zyvia's Twofold Path.jpg"
+			}
+		},
+		{
+			"name": "Countryside Lindwurm",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Wurm",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/174_Countryside Lindwurm.jpg"
+			}
+		},
+		{
+			"name": "Struggle for Survival",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/201_Struggle for Survival.jpg"
+			}
+		},
+		{
+			"name": "Bear Fruit",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/172_Bear Fruit.jpg"
+			}
+		},
+		{
+			"name": "Wintry Hibernation",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/206_Wintry Hibernation.jpg"
+			}
+		},
+		{
+			"name": "Haunt's End",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/183_Haunt's End.jpg"
+			}
+		},
+		{
+			"name": "Mire Reclamation",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/192_Mire Reclamation.jpg"
+			}
+		},
+		{
+			"name": "Swift Huntress",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/33_Swift Huntress.jpg"
+			}
+		},
+		{
+			"name": "Knight of Pagonia",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/19_Knight of Pagonia.jpg"
+			}
+		},
+		{
+			"name": "Nawian Psychopomp",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/23_Nawian Psychopomp.jpg"
+			}
+		},
+		{
+			"name": "Istvan, Brave Huntsman",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/18_Istvan, Brave Huntsman.jpg"
+			}
+		},
+		{
+			"name": "Steel for Humans",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/32_Steel for Humans.jpg"
+			}
+		},
+		{
+			"name": "Vox Populi",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/39_Vox Populi.jpg"
+			}
+		},
+		{
+			"name": "Switezh Schoolmaster",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Merfolk Advisor",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/77_Switezh Schoolmaster.jpg"
+			}
+		},
+		{
+			"name": "Belogrod Feldsher",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Alchemist",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/44_Belogrod Feldsher.jpg"
+			}
+		},
+		{
+			"name": "Mournful Watcher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/64_Mournful Watcher.jpg"
+			}
+		},
+		{
+			"name": "Harbinger Crow",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/56_Harbinger Crow.jpg"
+			}
+		},
+		{
+			"name": "Midnight Dancers",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/60_Midnight Dancers.jpg"
+			}
+		},
+		{
+			"name": "Eventide Kelpie",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Horse Spirit Plant",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/49_Eventide Kelpie.jpg"
+			}
+		},
+		{
+			"name": "Misty Stampede",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Spirit Beast",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/62_Misty Stampede.jpg"
+			}
+		},
+		{
+			"name": "Thirst for Survival",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/78_Thirst for Survival.jpg"
+			}
+		},
+		{
+			"name": "Impersonate",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/57_Impersonate.jpg"
+			}
+		},
+		{
+			"name": "Dissipate",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/47_Dissipate.jpg"
+			}
+		},
+		{
+			"name": "Dirge for the Departed",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/46_Dirge for the Departed.jpg"
+			}
+		},
+		{
+			"name": "Grim Augur",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/102_Grim Augur.jpg"
+			}
+		},
+		{
+			"name": "Popiel, the Rat King",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Zombie Noble",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/114_Popiel, the Rat King.jpg"
+			}
+		},
+		{
+			"name": "Circle of Death",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/93_Circle of Death.jpg"
+			}
+		},
+		{
+			"name": "Haunting Party",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/104_Haunting Party.jpg"
+			}
+		},
+		{
+			"name": "Grim Hunt",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/103_Grim Hunt.jpg"
+			}
+		},
+		{
+			"name": "Deadwish Huntsman",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/133_Deadwish Huntsman.jpg"
+			}
+		},
+		{
+			"name": "Young Diabolist",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/168_Young Diabolist.jpg"
+			}
+		},
+		{
+			"name": "Civic Huntsman",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/131_Civic Huntsman.jpg"
+			}
+		},
+		{
+			"name": "Fading Ember-Bird",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Phoenix",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/137_Fading Ember-Bird.jpg"
+			}
+		},
+		{
+			"name": "Sontsivka Bushmaster",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Peasant",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/155_Sontsivka Bushmaster.jpg"
+			}
+		},
+		{
+			"name": "Rabid Wererat",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Rat",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/151_Rabid Wererat.jpg"
+			}
+		},
+		{
+			"name": "Badlands Witch",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/127_Badlands Witch.jpg"
+			}
+		},
+		{
+			"name": "Quilled Boar",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Boar",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/150_Quilled Boar.jpg"
+			}
+		},
+		{
+			"name": "Until Last Ember Fades",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/165_Until Last Ember Fades.jpg"
+			}
+		},
+		{
+			"name": "Tug at the Heartstrings",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/162_Tug at the Heartstrings.jpg"
+			}
+		},
+		{
+			"name": "Oneiromancer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/197_Oneiromancer.jpg"
+			}
+		},
+		{
+			"name": "Equinox Harbinger",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Spirit",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/180_Equinox Harbinger.jpg"
+			}
+		},
+		{
+			"name": "Thing in the Woods",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Treefolk Horror",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/203_Thing in the Woods.jpg"
+			}
+		},
+		{
+			"name": "Wolven Storm",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Wolf",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/207_Wolven Storm.jpg"
+			}
+		},
+		{
+			"name": "Vain Lamia",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Lamia",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/204_Vain Lamia.jpg"
+			}
+		},
+		{
+			"name": "Life from Death",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/189_Life from Death.jpg"
+			}
+		},
+		{
+			"name": "Life's Legacy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/190_Life's Legacy.jpg"
+			}
+		},
+		{
+			"name": "Moulder",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/193_Moulder.jpg"
+			}
+		},
+		{
+			"name": "Zhycios, Mistress of Life",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/42_Zhycios, Mistress of Life.jpg"
+			}
+		},
+		{
+			"name": "Wandering Healer",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/40_Wandering Healer.jpg"
+			}
+		},
+		{
+			"name": "Descendant Invoker",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/6_Descendant Invoker.jpg"
+			}
+		},
+		{
+			"name": "Spiritual Intervention",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/31_Spiritual Intervention.jpg"
+			}
+		},
+		{
+			"name": "Rustic Study",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/28_Rustic Study.jpg"
+			}
+		},
+		{
+			"name": "Swift Rusalka",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Spirit Nymph",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/76_Swift Rusalka.jpg"
+			}
+		},
+		{
+			"name": "Stribog's Presence",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Enchantment",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/74_Stribog's Presence.jpg"
+			}
+		},
+		{
+			"name": "Sow the Wind",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/70_Sow the Wind.jpg"
+			}
+		},
+		{
+			"name": "Undercourt Tutor",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Wizard Advisor",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/80_Undercourt Tutor.jpg"
+			}
+		},
+		{
+			"name": "Morena's Presence",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Enchantment",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/110_Morena's Presence.jpg"
+			}
+		},
+		{
+			"name": "Skorup, Immortal Shell",
+			"rarity": "rare",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Legendary Creature — Turtle Zombie",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/118_Skorup, Immortal Shell.jpg"
+			}
+		},
+		{
+			"name": "Smiercios, Mistress of Death",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/119_Smiercios, Mistress of Death.jpg"
+			}
+		},
+		{
+			"name": "Belogrod Lajkonik",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/128_Belogrod Lajkonik.jpg"
+			}
+		},
+		{
+			"name": "Perun's Presence",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Enchantment",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/149_Perun's Presence.jpg"
+			}
+		},
+		{
+			"name": "Grove Gnarlid",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/181_Grove Gnarlid.jpg"
+			}
+		},
+		{
+			"name": "Sewer Zeugl",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Octopus Horror",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/199_Sewer Zeugl.jpg"
+			}
+		},
+		{
+			"name": "Badlands Pummeler",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/171_Badlands Pummeler.jpg"
+			}
+		},
+		{
+			"name": "Zielenn Zhret",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/209_Zielenn Zhret.jpg"
+			}
+		},
+		{
+			"name": "Master of the Wild Hunt",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/191_Master of the Wild Hunt.jpg"
+			}
+		},
+		{
+			"name": "Sylvan Genesis",
+			"rarity": "rare",
+			"mana_cost": "{X}{X}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/202_Sylvan Genesis.jpg"
+			}
+		},
+		{
+			"name": "Gamayun of the Last Word",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Sphinx Spirit",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/52_Gamayun of the Last Word.jpg"
+			}
+		},
+		{
+			"name": "Cadaverine Viper",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Snake",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/90_Cadaverine Viper.jpg"
+			}
+		},
+		{
+			"name": "Ancient Leshy",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Treefolk",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/169_Ancient Leshy.jpg"
+			}
+		},
+		{
+			"name": "Royal Apparition",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Creature — Spirit Noble",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/226_Royal Apparition.jpg"
+			}
+		},
+		{
+			"name": "Tactical Shark Chariot",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Spirit Shark",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/229_Tactical Shark Chariot.jpg"
+			}
+		},
+		{
+			"name": "Chernogaj Chort",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Devil",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/215_Chernogaj Chort.jpg"
+			}
+		},
+		{
+			"name": "Alkonost Caretaker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/213_Alkonost Caretaker.jpg"
+			}
+		},
+		{
+			"name": "Seasoned Lumberjack",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Creature — Human Scout",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/227_Seasoned Lumberjack.jpg"
+			}
+		},
+		{
+			"name": "Sewer Swarm Queen",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/228_Sewer Swarm Queen.jpg"
+			}
+		},
+		{
+			"name": "Witchhunter Veteran",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/232_Witchhunter Veteran.jpg"
+			}
+		},
+		{
+			"name": "Bartek, Living Lore",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Treefolk",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/214_Bartek, Living Lore.jpg"
+			}
+		},
+		{
+			"name": "Nawian Gamayun",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Sphinx Spirit",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/223_Nawian Gamayun.jpg"
+			}
+		},
+		{
+			"name": "Nightmare Mirror",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Nightmare Reflection",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/224_Nightmare Mirror.jpg"
+			}
+		},
+		{
+			"name": "Fiendish Tutor",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/219_Fiendish Tutor.jpg"
+			}
+		},
+		{
+			"name": "Collateral Takedown",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/216_Collateral Takedown.jpg"
+			}
+		},
+		{
+			"name": "Adaptive Fungus",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{W}",
+			"type": "Creature — Fungus",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/212_Adaptive Fungus.jpg"
+			}
+		},
+		{
+			"name": "Grave Warden",
+			"rarity": "rare",
+			"mana_cost": "{1}{W/B}",
+			"type": "Creature — Spirit",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/233_Grave Warden.jpg"
+			}
+		},
+		{
+			"name": "Foreman of Rot",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Zombie",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/220_Foreman of Rot.jpg"
+			}
+		},
+		{
+			"name": "Haze of Wrath",
+			"rarity": "rare",
+			"mana_cost": "{X}{R/W}{R/W}",
+			"type": "Instant",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/234_Haze of Wrath.jpg"
+			}
+		},
+		{
+			"name": "Dryad Tutor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Dryad Advisor",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/218_Dryad Tutor.jpg"
+			}
+		},
+		{
+			"name": "Soul-Trap Ward",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/243_Soul-Trap Ward.jpg"
+			}
+		},
+		{
+			"name": "Peasant's Scythe",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/241_Peasant's Scythe.jpg"
+			}
+		},
+		{
+			"name": "Endless Graves",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/238_Endless Graves.jpg"
+			}
+		},
+		{
+			"name": "Valley of Death",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/251_Valley of Death.jpg"
+			}
+		},
+		{
+			"name": "Dazhbog Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/3_Dazhbog Charm.jpg"
+			}
+		},
+		{
+			"name": "Morena Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/108_Morena Charm.jpg"
+			}
+		},
+		{
+			"name": "Stribog Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/72_Stribog Charm.jpg"
+			}
+		},
+		{
+			"name": "Perun Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/147_Perun Charm.jpg"
+			}
+		},
+		{
+			"name": "Devanna Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/175_Devanna Charm.jpg"
+			}
+		},
+		{
+			"name": "Turn Undead",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/123_Turn Undead.jpg"
+			}
+		},
+		{
+			"name": "Equinox Fires",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/136_Equinox Fires.jpg"
+			}
+		},
+		{
+			"name": "Thundering Spirit",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/34_Thundering Spirit.jpg"
+			}
+		},
+		{
+			"name": "Sinking of Switezh",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/69_Sinking of Switezh.jpg"
+			}
+		},
+		{
+			"name": "Dazhbog's Presence",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Enchantment",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/5_Dazhbog's Presence.jpg"
+			}
+		},
+		{
+			"name": "Population Control",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/115_Population Control.jpg"
+			}
+		},
+		{
+			"name": "Monster Contract",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/22_Monster Contract.jpg"
+			}
+		},
+		{
+			"name": "Wayfarer's Shrine",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/252_Wayfarer's Shrine.jpg"
+			}
+		},
+		{
+			"name": "Necrodancer Witch",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/112_Necrodancer Witch.jpg"
+			}
+		},
+		{
+			"name": "Disable",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/7_Disable.jpg"
+			}
+		},
+		{
+			"name": "Path to Infinity",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/67_Path to Infinity.jpg"
+			}
+		},
+		{
+			"name": "Harvest Devil",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Devil",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/141_Harvest Devil.jpg"
+			}
+		},
+		{
+			"name": "Drowning of Morena",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/178_Drowning of Morena.jpg"
+			}
+		},
+		{
+			"name": "Vodyanoi's Prey",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/83_Vodyanoi's Prey.jpg"
+			}
+		},
+		{
+			"name": "Swan Queen",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Spirit Harpy",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/75_Swan Queen.jpg"
+			}
+		},
+		{
+			"name": "Lost Child",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Peasant",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/20_Lost Child.jpg"
+			}
+		},
+		{
+			"name": "Forlorn Souls",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/12_Forlorn Souls.jpg"
+			}
+		},
+		{
+			"name": "Crowmarsh Sybil",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/95_Crowmarsh Sybil.jpg"
+			}
+		},
+		{
+			"name": "Zielenn Dryad",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Dryad",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/208_Zielenn Dryad.jpg"
+			}
+		},
+		{
+			"name": "The Nemeton",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Legendary Artifact",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/144_The Nemeton.jpg"
+			}
+		},
+		{
+			"name": "Lowlands Harvester",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Peasant",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/21_Lowlands Harvester.jpg"
+			}
+		},
+		{
+			"name": "Fling",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/139_Fling.jpg"
+			}
+		},
+		{
+			"name": "Defilement",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/96_Defilement.jpg"
+			}
+		},
+		{
+			"name": "Witch's Mirror",
+			"rarity": "common",
+			"mana_cost": "{7}",
+			"type": "Artifact",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/245_Witch's Mirror.jpg"
+			}
+		},
+		{
+			"name": "Dazhbog's Gaze",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/4_Dazhbog's Gaze.jpg"
+			}
+		},
+		{
+			"name": "Stribog's Breath",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/73_Stribog's Breath.jpg"
+			}
+		},
+		{
+			"name": "Moonlit Gamayun",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Sphinx Spirit",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/63_Moonlit Gamayun.jpg"
+			}
+		},
+		{
+			"name": "Wheel of Time",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/41_Wheel of Time.jpg"
+			}
+		},
+		{
+			"name": "Heartfelt Visitation",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/15_Heartfelt Visitation.jpg"
+			}
+		},
+		{
+			"name": "Belogrod Griffin",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Griffin",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/2_Belogrod Griffin.jpg"
+			}
+		},
+		{
+			"name": "Morena's Grasp",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/109_Morena's Grasp.jpg"
+			}
+		},
+		{
+			"name": "Perun's Lightning",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/148_Perun's Lightning.jpg"
+			}
+		},
+		{
+			"name": "Devanna's Boon",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Instant",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/176_Devanna's Boon.jpg"
+			}
+		},
+		{
+			"name": "Gravity Pull",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/54_Gravity Pull.jpg"
+			}
+		},
+		{
+			"name": "Merfolk Magician",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Merfolk Wizard",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/222_Merfolk Magician.jpg"
+			}
+		},
+		{
+			"name": "Noonwraith Bride",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/24_Noonwraith Bride.jpg"
+			}
+		},
+		{
+			"name": "Bald Mountain",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Artifact Land — Vehicle",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/246_Bald Mountain.jpg"
+			}
+		},
+		{
+			"name": "Hermit Hideout",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Artifact Land — Vehicle",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/248_Hermit Hideout.jpg"
+			}
+		},
+		{
+			"name": "Litter Cottage",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Artifact Land — Vehicle",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/250_Litter Cottage.jpg"
+			}
+		},
+		{
+			"name": "Creeping Homestead",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Artifact Land — Vehicle",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/247_Creeping Homestead.jpg"
+			}
+		},
+		{
+			"name": "Hut of Horrors",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Artifact Land — Vehicle",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/249_Hut of Horrors.jpg"
+			}
+		},
+		{
+			"name": "Oakcritters",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Treefolk Squirrel",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/195_Oakcritters.jpg"
+			}
+		},
+		{
+			"name": "Waligora and the Reavers",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/230_Waligora and the Reavers.jpg"
+			}
+		},
+		{
+			"name": "Medean Medusa",
+			"rarity": "rare",
+			"mana_cost": "{U/R}{U/R}",
+			"type": "Creature — Jellyfish Merfolk",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/235_Medean Medusa.jpg"
+			}
+		},
+		{
+			"name": "Natural Convergence",
+			"rarity": "rare",
+			"mana_cost": "{G/U}{G/U}",
+			"type": "Instant",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/236_Natural Convergence.jpg"
+			}
+		},
+		{
+			"name": "Midnight Wraith",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Spirit Shade",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/107_Midnight Wraith.jpg"
+			}
+		},
+		{
+			"name": "Lysette, Stars Unbound",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Planeswalker — Lys",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/59_Lysette, Stars Unbound.jpg"
+			}
+		},
+		{
+			"name": "Zyvia, Springing Bloom",
+			"rarity": "mythic",
+			"mana_cost": "{G}{G}",
+			"type": "Legendary Planeswalker — Zyvia",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/210_Zyvia, Springing Bloom.jpg"
+			}
+		},
+		{
+			"name": "Heart of the Hive",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Treefolk Insect",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/184_Heart of the Hive.jpg"
+			}
+		},
+		{
+			"name": "Blightmaker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/87_Blightmaker.jpg"
+			}
+		},
+		{
+			"name": "Chernogaj Coven",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/91_Chernogaj Coven.jpg"
+			}
+		},
+		{
+			"name": "Tibalt, Crossroads Dealmaker",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Planeswalker — Tibalt",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/158_Tibalt, Crossroads Dealmaker.jpg"
+			}
+		},
+		{
+			"name": "Turnip Smuggler",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Rogue Archer",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/35_Turnip Smuggler.jpg"
+			}
+		},
+		{
+			"name": "Mutual Destruction",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/111_Mutual Destruction.jpg"
+			}
+		},
+		{
+			"name": "Faithless Exorcist",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/9_Faithless Exorcist.jpg"
+			}
+		},
+		{
+			"name": "Necrodivination",
+			"rarity": "rare",
+			"mana_cost": "{2}{B/G}",
+			"type": "Instant",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/237_Necrodivination.jpg"
+			}
+		},
+		{
+			"name": "Ghostlight Trickster",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/13_Ghostlight Trickster.jpg"
+			}
+		},
+		{
+			"name": "Nenufar Darter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Scout",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/65_Nenufar Darter.jpg"
+			}
+		},
+		{
+			"name": "Resolute Huntsman",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/116_Resolute Huntsman.jpg"
+			}
+		},
+		{
+			"name": "Death of the Deathless",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/217_Death of the Deathless.jpg"
+			}
+		},
+		{
+			"name": "Lake Lurker",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/105_Lake Lurker.jpg"
+			}
+		},
+		{
+			"name": "Outcast Zhret",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/225_Outcast Zhret.jpg"
+			}
+		},
+		{
+			"name": "Tracking Bolt",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/160_Tracking Bolt.jpg"
+			}
+		},
+		{
+			"name": "Triglaw Shrine",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/244_Triglaw Shrine.jpg"
+			}
+		},
+		{
+			"name": "Rune Volkhv",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/68_Rune Volkhv.jpg"
+			}
+		},
+		{
+			"name": "Soul Amalgam",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/120_Soul Amalgam.jpg"
+			}
+		},
+		{
+			"name": "Belogrod Stalker",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Vampire",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/85_Belogrod Stalker.jpg"
+			}
+		},
+		{
+			"name": "Yaga's Thrall",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Zombie Warrior",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/125_Yaga's Thrall.jpg"
+			}
+		},
+		{
+			"name": "Equinox Festival",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/135_Equinox Festival.jpg"
+			}
+		},
+		{
+			"name": "Zmey, Warden of Nawia",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/126_Zmey, Warden of Nawia.jpg"
+			}
+		},
+		{
+			"name": "Jaga, Witch o' the Woods",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}{U}",
+			"type": "Legendary Creature — Elder Hag",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/221_Jaga, Witch o' the Woods.jpg"
+			}
+		},
+		{
+			"name": "Syr Twardoch, Devil's Patron",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/156_Syr Twardoch, Devil's Patron.jpg"
+			}
+		},
+		{
+			"name": "Kupala Pyromancer",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/142_Kupala Pyromancer.jpg"
+			}
+		},
+		{
+			"name": "Traitor to Humankind",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Crature — Human Werewolf",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/161_Traitor to Humankind.jpg"
+			}
+		},
+		{
+			"name": "Necrogrowth Horror",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Plant Zombie",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/194_Necrogrowth Horror.jpg"
+			}
+		},
+		{
+			"name": "Fern Flower",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/239_Fern Flower.jpg"
+			}
+		},
+		{
+			"name": "Huntsman's Bestiary",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Legendary Artifact",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/186_Huntsman's Bestiary.jpg"
+			}
+		},
+		{
+			"name": "Wicked Man",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Creature — Skeleton Elemental",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/231_Wicked Man.jpg"
+			}
+		},
+		{
+			"name": "Rarog, the Ever-Ember",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Phoenix",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/152_Rarog, the Ever-Ember.jpg"
+			}
+		},
+		{
+			"name": "Hunting Territory",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/185_Hunting Territory.jpg"
+			}
+		},
+		{
+			"name": "Jump Scarecrow",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Scarecrow",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/240_Jump Scarecrow.jpg"
+			}
+		},
+		{
+			"name": "Underwater Court",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/81_Underwater Court.jpg"
+			}
+		},
+		{
+			"name": "Spectral Barghest",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Spirit Hound",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/121_Spectral Barghest.jpg"
+			}
+		},
+		{
+			"name": "Glimpse of the Multiverse",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/53_Glimpse of the Multiverse.jpg"
+			}
+		},
+		{
+			"name": "Lichemist",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie Warlock Alchemist",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/106_Lichemist.jpg"
+			}
+		},
+		{
+			"name": "Wila Caretaker",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Dryad",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/205_Wila Caretaker.jpg"
+			}
+		},
+		{
+			"name": "Seven-League Boots",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/242_Seven-League Boots.jpg"
+			}
+		},
+		{
+			"name": "Queen of the Harvest",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Avatar",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/27_Queen of the Harvest.jpg"
+			}
+		},
+		{
+			"name": "Tormenting Likho",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Specter",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/122_Tormenting Likho.jpg"
+			}
+		},
+		{
+			"name": "Professionalism",
+			"rarity": "mythic",
+			"mana_cost": "{W}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/26_Professionalism.jpg"
+			}
+		},
+		{
+			"name": "Devanna's Presence",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Enchantment",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/177_Devanna's Presence.jpg"
+			}
+		},
+		{
+			"name": "Vagabund Storyteller",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Bard",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/36_Vagabund Storyteller.jpg"
+			}
+		},
+		{
+			"name": "Sontsivka Spellweaver",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/30_Sontsivka Spellweaver.jpg"
+			}
+		},
+		{
+			"name": "Silverblade Huntsman",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/29_Silverblade Huntsman.jpg"
+			}
+		},
+		{
+			"name": "Pagan Iconoclast",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Peasant",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://mikkjalrium.github.io/sets/ZOR-files/img/146_Pagan Iconoclast.jpg"
+			}
+		}
+	]
+
+[rare(1)]
+	5 Istvan, Brave Huntsman
+	5 Popiel, the Rat King
+	5 Wandering Healer
+	5 Descendant Invoker
+	5 Spiritual Intervention
+	5 Rustic Study
+	5 Swift Rusalka
+	5 Stribog's Presence
+	5 Sow the Wind
+	5 Undercourt Tutor
+	5 Morena's Presence
+	5 Skorup, Immortal Shell
+	5 Belogrod Lajkonik
+	5 Perun's Presence
+	5 Grove Gnarlid
+	5 Sewer Zeugl
+	5 Badlands Pummeler
+	5 Zielenn Zhret
+	5 Master of the Wild Hunt
+	5 Sylvan Genesis
+	5 Gamayun of the Last Word
+	5 Cadaverine Viper
+	5 Ancient Leshy
+	5 Bartek, Living Lore
+	5 Nawian Gamayun
+	5 Nightmare Mirror
+	5 Fiendish Tutor
+	5 Collateral Takedown
+	5 Adaptive Fungus
+	5 Grave Warden
+	5 Foreman of Rot
+	5 Haze of Wrath
+	5 Turn Undead
+	5 Sinking of Switezh
+	5 Dazhbog's Presence
+	5 Necrodancer Witch
+	5 Harvest Devil
+	5 Swan Queen
+	5 The Nemeton
+	5 Defilement
+	5 Wheel of Time
+	5 Gravity Pull
+	5 Bald Mountain
+	5 Hermit Hideout
+	5 Litter Cottage
+	5 Creeping Homestead
+	5 Hut of Horrors
+	5 Waligora and the Reavers
+	5 Medean Medusa
+	5 Natural Convergence
+	5 Lysette, Stars Unbound
+	5 Zyvia, Springing Bloom
+	5 Tibalt, Crossroads Dealmaker
+	5 Necrodivination
+	5 Ghostlight Trickster
+	5 Resolute Huntsman
+	5 Death of the Deathless
+	5 Zmey, Warden of Nawia
+	5 Jaga, Witch o' the Woods
+	5 Syr Twardoch, Devil's Patron
+	5 Kupala Pyromancer
+	5 Traitor to Humankind
+	5 Fern Flower
+	5 Huntsman's Bestiary
+	5 Wicked Man
+	5 Rarog, the Ever-Ember
+	5 Glimpse of the Multiverse
+	5 Lichemist
+	5 Wila Caretaker
+	5 Queen of the Harvest
+	5 Professionalism
+	5 Devanna's Presence
+	5 Pagan Iconoclast
+[uncommon(3)]
+	5 Bearification
+	5 Black Rooster
+	5 Nocturnal Striga
+	5 Grave Secret
+	5 Silver for Monsters
+	5 Skrzak Gang
+	5 On Wild Hunt
+	5 Underkeep Drake
+	5 Bear Fruit
+	5 Swift Huntress
+	5 Knight of Pagonia
+	5 Nawian Psychopomp
+	5 Steel for Humans
+	5 Vox Populi
+	5 Switezh Schoolmaster
+	5 Belogrod Feldsher
+	5 Mournful Watcher
+	5 Harbinger Crow
+	5 Eventide Kelpie
+	5 Misty Stampede
+	5 Thirst for Survival
+	5 Impersonate
+	5 Dissipate
+	5 Grim Augur
+	5 Haunting Party
+	5 Grim Hunt
+	5 Deadwish Huntsman
+	5 Young Diabolist
+	5 Sontsivka Bushmaster
+	5 Rabid Wererat
+	5 Badlands Witch
+	5 Until Last Ember Fades
+	5 Tug at the Heartstrings
+	5 Oneiromancer
+	5 Equinox Harbinger
+	5 Thing in the Woods
+	5 Wolven Storm
+	5 Vain Lamia
+	5 Life from Death
+	5 Life's Legacy
+	5 Zhycios, Mistress of Life
+	5 Smiercios, Mistress of Death
+	5 Royal Apparition
+	5 Tactical Shark Chariot
+	5 Chernogaj Chort
+	5 Alkonost Caretaker
+	5 Seasoned Lumberjack
+	5 Sewer Swarm Queen
+	5 Witchhunter Veteran
+	5 Dryad Tutor
+	5 Endless Graves
+	5 Valley of Death
+	5 Dazhbog Charm
+	5 Morena Charm
+	5 Stribog Charm
+	5 Perun Charm
+	5 Devanna Charm
+	5 Equinox Fires
+	5 Thundering Spirit
+	5 Population Control
+	5 Drowning of Morena
+	5 Forlorn Souls
+	5 Zielenn Dryad
+	5 Heartfelt Visitation
+	5 Merfolk Magician
+	5 Oakcritters
+	5 Heart of the Hive
+	5 Blightmaker
+	5 Nenufar Darter
+	5 Outcast Zhret
+	5 Tracking Bolt
+	5 Soul Amalgam
+	5 Underwater Court
+	5 Seven-League Boots
+	5 Tormenting Likho
+	5 Vagabund Storyteller
+	5 Sontsivka Spellweaver
+	5 Silverblade Huntsman
+[common(10)]
+	5 Henhouse Burglar
+	5 Village Pellar
+	5 Veil Breacher
+	5 Novice Huntsman
+	5 Intrepid Bogatyr
+	5 Eternal Bonds
+	5 Grandfather Moroz
+	5 Fighting Spirit
+	5 Forefathers' Guidance
+	5 Ancestral Offering
+	5 Lubberkin
+	5 Undercourt Trickster
+	5 Diver Drowner
+	5 Migratory Stork
+	5 Young Zagovorka
+	5 Buyan Leviathan
+	5 Otherworldly Possession
+	5 Spirited Away
+	5 Undine's Snare
+	5 Grim Prognosis
+	5 Foglets
+	5 Fend Off the Evil Glare
+	5 Doomed Wanderer
+	5 Chironex
+	5 Dreadful Kikimora
+	5 Depart to Nawia
+	5 Bonespinning
+	5 Village Rites
+	5 Bogbound
+	5 Forefathers' Eve
+	5 Cremate
+	5 She-Wolf
+	5 Chortling
+	5 Grave Looter
+	5 Yaremcha Houndmaster
+	5 Tiger Fiend
+	5 Duck Hunter
+	5 Fateweaver Rusalka
+	5 Crib Sweep
+	5 Thrill of Possibility
+	5 Whim
+	5 Bomb Throw
+	5 Meteoric Ore Blade
+	5 Twig Shrapnel
+	5 Arboreal Larva
+	5 Hangry Bear
+	5 Equinox Celebrant
+	5 Pollenbeast
+	5 Carnivorous Bloom
+	5 Old-Growth Longlegs
+	5 Springtide Seer
+	5 Leshy's Varmint
+	5 Lesser Leshy
+	5 Zyvia's Twofold Path
+	5 Countryside Lindwurm
+	5 Struggle for Survival
+	5 Wintry Hibernation
+	5 Haunt's End
+	5 Mire Reclamation
+	5 Midnight Dancers
+	5 Dirge for the Departed
+	5 Circle of Death
+	5 Civic Huntsman
+	5 Fading Ember-Bird
+	5 Quilled Boar
+	5 Moulder
+	5 Soul-Trap Ward
+	5 Peasant's Scythe
+	5 Monster Contract
+	5 Wayfarer's Shrine
+	5 Disable
+	5 Path to Infinity
+	5 Vodyanoi's Prey
+	5 Lost Child
+	5 Crowmarsh Sybil
+	5 Lowlands Harvester
+	5 Fling
+	5 Witch's Mirror
+	5 Dazhbog's Gaze
+	5 Stribog's Breath
+	5 Moonlit Gamayun
+	5 Belogrod Griffin
+	5 Morena's Grasp
+	5 Perun's Lightning
+	5 Devanna's Boon
+	5 Noonwraith Bride
+	5 Midnight Wraith
+	5 Chernogaj Coven
+	5 Turnip Smuggler
+	5 Mutual Destruction
+	5 Faithless Exorcist
+	5 Lake Lurker
+	5 Triglaw Shrine
+	5 Rune Volkhv
+	5 Belogrod Stalker
+	5 Yaga's Thrall
+	5 Equinox Festival
+	5 Necrogrowth Horror
+	5 Hunting Territory
+	5 Jump Scarecrow
+	5 Spectral Barghest

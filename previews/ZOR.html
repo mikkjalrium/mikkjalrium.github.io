@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/ZOR-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>ZOR visual preview</title>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/ZOR-files/logo.png" />
+	<img class="preload-hidden" src="/sets/ZOR-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="ZOR"><img src="/sets/ZOR-files/icon.png">Zorana: Old World</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/ZOR-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img alt="/sets\ZOR-files\img\26_Professionalism.jpg" id="26_Professionalism" data-flag="@X" onclick="openSidebar('26_Professionalism',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\52_Gamayun of the Last Word.jpg" id="52_Gamayun of the Last Word" data-flag="@X" onclick="openSidebar('52_Gamayun of the Last Word',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\112_Necrodancer Witch.jpg" id="112_Necrodancer Witch" data-flag="@X" onclick="openSidebar('112_Necrodancer Witch',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\152_Rarog, the Ever-Ember.jpg" id="152_Rarog, the Ever-Ember" data-flag="@X" onclick="openSidebar('152_Rarog, the Ever-Ember',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\169_Ancient Leshy.jpg" id="169_Ancient Leshy" data-flag="@X" onclick="openSidebar('169_Ancient Leshy',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\41_Wheel of Time.jpg" id="41_Wheel of Time" data-flag="@X" onclick="openSidebar('41_Wheel of Time',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\59_Lysette, Stars Unbound.jpg" id="59_Lysette, Stars Unbound" data-flag="@X" onclick="openSidebar('59_Lysette, Stars Unbound',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\126_Zmey, Warden of Nawia.jpg" id="126_Zmey, Warden of Nawia" data-flag="@X" onclick="openSidebar('126_Zmey, Warden of Nawia',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\158_Tibalt, Crossroads Dealmaker.jpg" id="158_Tibalt, Crossroads Dealmaker" data-flag="@X" onclick="openSidebar('158_Tibalt, Crossroads Dealmaker',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\191_Master of the Wild Hunt.jpg" id="191_Master of the Wild Hunt" data-flag="@X" onclick="openSidebar('191_Master of the Wild Hunt',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\5_Dazhbog's Presence.jpg" id="5_Dazhbogs Presence" data-flag="@X" onclick="openSidebar('5_Dazhbogs Presence',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\53_Glimpse of the Multiverse.jpg" id="53_Glimpse of the Multiverse" data-flag="@X" onclick="openSidebar('53_Glimpse of the Multiverse',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\90_Cadaverine Viper.jpg" id="90_Cadaverine Viper" data-flag="@X" onclick="openSidebar('90_Cadaverine Viper',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\128_Belogrod Lajkonik.jpg" id="128_Belogrod Lajkonik" data-flag="@X" onclick="openSidebar('128_Belogrod Lajkonik',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\210_Zyvia, Springing Bloom.jpg" id="210_Zyvia, Springing Bloom" data-flag="@X" onclick="openSidebar('210_Zyvia, Springing Bloom',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\6_Descendant Invoker.jpg" id="6_Descendant Invoker" data-flag="@X" onclick="openSidebar('6_Descendant Invoker',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\54_Gravity Pull.jpg" id="54_Gravity Pull" data-flag="@X" onclick="openSidebar('54_Gravity Pull',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\96_Defilement.jpg" id="96_Defilement" data-flag="@X" onclick="openSidebar('96_Defilement',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\141_Harvest Devil.jpg" id="141_Harvest Devil" data-flag="@X" onclick="openSidebar('141_Harvest Devil',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\171_Badlands Pummeler.jpg" id="171_Badlands Pummeler" data-flag="@X" onclick="openSidebar('171_Badlands Pummeler',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\13_Ghostlight Trickster.jpg" id="13_Ghostlight Trickster" data-flag="@X" onclick="openSidebar('13_Ghostlight Trickster',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\69_Sinking of Switezh.jpg" id="69_Sinking of Switezh" data-flag="@X" onclick="openSidebar('69_Sinking of Switezh',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\106_Lichemist.jpg" id="106_Lichemist" data-flag="@X" onclick="openSidebar('106_Lichemist',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\142_Kupala Pyromancer.jpg" id="142_Kupala Pyromancer" data-flag="@X" onclick="openSidebar('142_Kupala Pyromancer',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\177_Devanna's Presence.jpg" id="177_Devannas Presence" data-flag="@X" onclick="openSidebar('177_Devannas Presence',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\18_Istvan, Brave Huntsman.jpg" id="18_Istvan, Brave Huntsman" data-flag="@X" onclick="openSidebar('18_Istvan, Brave Huntsman',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\70_Sow the Wind.jpg" id="70_Sow the Wind" data-flag="@X" onclick="openSidebar('70_Sow the Wind',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\110_Morena's Presence.jpg" id="110_Morenas Presence" data-flag="@X" onclick="openSidebar('110_Morenas Presence',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\144_The Nemeton.jpg" id="144_The Nemeton" data-flag="@X" onclick="openSidebar('144_The Nemeton',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\181_Grove Gnarlid.jpg" id="181_Grove Gnarlid" data-flag="@X" onclick="openSidebar('181_Grove Gnarlid',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\27_Queen of the Harvest.jpg" id="27_Queen of the Harvest" data-flag="@X" onclick="openSidebar('27_Queen of the Harvest',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\74_Stribog's Presence.jpg" id="74_Stribogs Presence" data-flag="@X" onclick="openSidebar('74_Stribogs Presence',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\114_Popiel, the Rat King.jpg" id="114_Popiel, the Rat King" data-flag="@X" onclick="openSidebar('114_Popiel, the Rat King',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\146_Pagan Iconoclast.jpg" id="146_Pagan Iconoclast" data-flag="@X" onclick="openSidebar('146_Pagan Iconoclast',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\186_Huntsman's Bestiary.jpg" id="186_Huntsmans Bestiary" data-flag="@X" onclick="openSidebar('186_Huntsmans Bestiary',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\28_Rustic Study.jpg" id="28_Rustic Study" data-flag="@X" onclick="openSidebar('28_Rustic Study',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\75_Swan Queen.jpg" id="75_Swan Queen" data-flag="@X" onclick="openSidebar('75_Swan Queen',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\116_Resolute Huntsman.jpg" id="116_Resolute Huntsman" data-flag="@X" onclick="openSidebar('116_Resolute Huntsman',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\149_Perun's Presence.jpg" id="149_Peruns Presence" data-flag="@X" onclick="openSidebar('149_Peruns Presence',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\199_Sewer Zeugl.jpg" id="199_Sewer Zeugl" data-flag="@X" onclick="openSidebar('199_Sewer Zeugl',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\31_Spiritual Intervention.jpg" id="31_Spiritual Intervention" data-flag="@X" onclick="openSidebar('31_Spiritual Intervention',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\76_Swift Rusalka.jpg" id="76_Swift Rusalka" data-flag="@X" onclick="openSidebar('76_Swift Rusalka',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\118_Skorup, Immortal Shell.jpg" id="118_Skorup, Immortal Shell" data-flag="@X" onclick="openSidebar('118_Skorup, Immortal Shell',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\156_Syr Twardoch, Devil's Patron.jpg" id="156_Syr Twardoch, Devils Patron" data-flag="@X" onclick="openSidebar('156_Syr Twardoch, Devils Patron',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\202_Sylvan Genesis.jpg" id="202_Sylvan Genesis" data-flag="@X" onclick="openSidebar('202_Sylvan Genesis',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\40_Wandering Healer.jpg" id="40_Wandering Healer" data-flag="@X" onclick="openSidebar('40_Wandering Healer',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\80_Undercourt Tutor.jpg" id="80_Undercourt Tutor" data-flag="@X" onclick="openSidebar('80_Undercourt Tutor',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\123_Turn Undead.jpg" id="123_Turn Undead" data-flag="@X" onclick="openSidebar('123_Turn Undead',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\161_Traitor to Humankind.jpg" id="161_Traitor to Humankind" data-flag="@X" onclick="openSidebar('161_Traitor to Humankind',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\205_Wila Caretaker.jpg" id="205_Wila Caretaker" data-flag="@X" onclick="openSidebar('205_Wila Caretaker',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\3_Dazhbog Charm.jpg" id="3_Dazhbog Charm" data-flag="@X" onclick="openSidebar('3_Dazhbog Charm',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\43_Bearification.jpg" id="43_Bearification" data-flag="@X" onclick="openSidebar('43_Bearification',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\86_Black Rooster.jpg" id="86_Black Rooster" data-flag="@X" onclick="openSidebar('86_Black Rooster',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\127_Badlands Witch.jpg" id="127_Badlands Witch" data-flag="@X" onclick="openSidebar('127_Badlands Witch',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\209_Zielenn Zhret.jpg" id="209_Zielenn Zhret" data-flag="@X" onclick="openSidebar('209_Zielenn Zhret',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\12_Forlorn Souls.jpg" id="12_Forlorn Souls" data-flag="@X" onclick="openSidebar('12_Forlorn Souls',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\44_Belogrod Feldsher.jpg" id="44_Belogrod Feldsher" data-flag="@X" onclick="openSidebar('44_Belogrod Feldsher',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\87_Blightmaker.jpg" id="87_Blightmaker" data-flag="@X" onclick="openSidebar('87_Blightmaker',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\133_Deadwish Huntsman.jpg" id="133_Deadwish Huntsman" data-flag="@X" onclick="openSidebar('133_Deadwish Huntsman',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\172_Bear Fruit.jpg" id="172_Bear Fruit" data-flag="@X" onclick="openSidebar('172_Bear Fruit',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\15_Heartfelt Visitation.jpg" id="15_Heartfelt Visitation" data-flag="@X" onclick="openSidebar('15_Heartfelt Visitation',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\47_Dissipate.jpg" id="47_Dissipate" data-flag="@X" onclick="openSidebar('47_Dissipate',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\101_Grave Secret.jpg" id="101_Grave Secret" data-flag="@X" onclick="openSidebar('101_Grave Secret',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\136_Equinox Fires.jpg" id="136_Equinox Fires" data-flag="@X" onclick="openSidebar('136_Equinox Fires',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\175_Devanna Charm.jpg" id="175_Devanna Charm" data-flag="@X" onclick="openSidebar('175_Devanna Charm',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\19_Knight of Pagonia.jpg" id="19_Knight of Pagonia" data-flag="@X" onclick="openSidebar('19_Knight of Pagonia',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\49_Eventide Kelpie.jpg" id="49_Eventide Kelpie" data-flag="@X" onclick="openSidebar('49_Eventide Kelpie',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\102_Grim Augur.jpg" id="102_Grim Augur" data-flag="@X" onclick="openSidebar('102_Grim Augur',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\145_On Wild Hunt.jpg" id="145_On Wild Hunt" data-flag="@X" onclick="openSidebar('145_On Wild Hunt',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\178_Drowning of Morena.jpg" id="178_Drowning of Morena" data-flag="@X" onclick="openSidebar('178_Drowning of Morena',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\23_Nawian Psychopomp.jpg" id="23_Nawian Psychopomp" data-flag="@X" onclick="openSidebar('23_Nawian Psychopomp',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\56_Harbinger Crow.jpg" id="56_Harbinger Crow" data-flag="@X" onclick="openSidebar('56_Harbinger Crow',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\103_Grim Hunt.jpg" id="103_Grim Hunt" data-flag="@X" onclick="openSidebar('103_Grim Hunt',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\147_Perun Charm.jpg" id="147_Perun Charm" data-flag="@X" onclick="openSidebar('147_Perun Charm',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\180_Equinox Harbinger.jpg" id="180_Equinox Harbinger" data-flag="@X" onclick="openSidebar('180_Equinox Harbinger',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\29_Silverblade Huntsman.jpg" id="29_Silverblade Huntsman" data-flag="@X" onclick="openSidebar('29_Silverblade Huntsman',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\57_Impersonate.jpg" id="57_Impersonate" data-flag="@X" onclick="openSidebar('57_Impersonate',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\104_Haunting Party.jpg" id="104_Haunting Party" data-flag="@X" onclick="openSidebar('104_Haunting Party',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\151_Rabid Wererat.jpg" id="151_Rabid Wererat" data-flag="@X" onclick="openSidebar('151_Rabid Wererat',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\184_Heart of the Hive.jpg" id="184_Heart of the Hive" data-flag="@X" onclick="openSidebar('184_Heart of the Hive',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\30_Sontsivka Spellweaver.jpg" id="30_Sontsivka Spellweaver" data-flag="@X" onclick="openSidebar('30_Sontsivka Spellweaver',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\62_Misty Stampede.jpg" id="62_Misty Stampede" data-flag="@X" onclick="openSidebar('62_Misty Stampede',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\108_Morena Charm.jpg" id="108_Morena Charm" data-flag="@X" onclick="openSidebar('108_Morena Charm',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\154_Skrzak Gang.jpg" id="154_Skrzak Gang" data-flag="@X" onclick="openSidebar('154_Skrzak Gang',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\189_Life from Death.jpg" id="189_Life from Death" data-flag="@X" onclick="openSidebar('189_Life from Death',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\32_Steel for Humans.jpg" id="32_Steel for Humans" data-flag="@X" onclick="openSidebar('32_Steel for Humans',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\64_Mournful Watcher.jpg" id="64_Mournful Watcher" data-flag="@X" onclick="openSidebar('64_Mournful Watcher',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\113_Nocturnal Striga.jpg" id="113_Nocturnal Striga" data-flag="@X" onclick="openSidebar('113_Nocturnal Striga',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\155_Sontsivka Bushmaster.jpg" id="155_Sontsivka Bushmaster" data-flag="@X" onclick="openSidebar('155_Sontsivka Bushmaster',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\190_Life's Legacy.jpg" id="190_Lifes Legacy" data-flag="@X" onclick="openSidebar('190_Lifes Legacy',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\33_Swift Huntress.jpg" id="33_Swift Huntress" data-flag="@X" onclick="openSidebar('33_Swift Huntress',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\65_Nenufar Darter.jpg" id="65_Nenufar Darter" data-flag="@X" onclick="openSidebar('65_Nenufar Darter',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\115_Population Control.jpg" id="115_Population Control" data-flag="@X" onclick="openSidebar('115_Population Control',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\160_Tracking Bolt.jpg" id="160_Tracking Bolt" data-flag="@X" onclick="openSidebar('160_Tracking Bolt',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\195_Oakcritters.jpg" id="195_Oakcritters" data-flag="@X" onclick="openSidebar('195_Oakcritters',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\34_Thundering Spirit.jpg" id="34_Thundering Spirit" data-flag="@X" onclick="openSidebar('34_Thundering Spirit',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\72_Stribog Charm.jpg" id="72_Stribog Charm" data-flag="@X" onclick="openSidebar('72_Stribog Charm',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\117_Silver for Monsters.jpg" id="117_Silver for Monsters" data-flag="@X" onclick="openSidebar('117_Silver for Monsters',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\162_Tug at the Heartstrings.jpg" id="162_Tug at the Heartstrings" data-flag="@X" onclick="openSidebar('162_Tug at the Heartstrings',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\197_Oneiromancer.jpg" id="197_Oneiromancer" data-flag="@X" onclick="openSidebar('197_Oneiromancer',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\36_Vagabund Storyteller.jpg" id="36_Vagabund Storyteller" data-flag="@X" onclick="openSidebar('36_Vagabund Storyteller',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\77_Switezh Schoolmaster.jpg" id="77_Switezh Schoolmaster" data-flag="@X" onclick="openSidebar('77_Switezh Schoolmaster',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\119_Smiercios, Mistress of Death.jpg" id="119_Smiercios, Mistress of Death" data-flag="@X" onclick="openSidebar('119_Smiercios, Mistress of Death',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\164_Underkeep Drake.jpg" id="164_Underkeep Drake" data-flag="@X" onclick="openSidebar('164_Underkeep Drake',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\203_Thing in the Woods.jpg" id="203_Thing in the Woods" data-flag="@X" onclick="openSidebar('203_Thing in the Woods',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\39_Vox Populi.jpg" id="39_Vox Populi" data-flag="@X" onclick="openSidebar('39_Vox Populi',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\78_Thirst for Survival.jpg" id="78_Thirst for Survival" data-flag="@X" onclick="openSidebar('78_Thirst for Survival',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\120_Soul Amalgam.jpg" id="120_Soul Amalgam" data-flag="@X" onclick="openSidebar('120_Soul Amalgam',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\165_Until Last Ember Fades.jpg" id="165_Until Last Ember Fades" data-flag="@X" onclick="openSidebar('165_Until Last Ember Fades',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\204_Vain Lamia.jpg" id="204_Vain Lamia" data-flag="@X" onclick="openSidebar('204_Vain Lamia',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\42_Zhycios, Mistress of Life.jpg" id="42_Zhycios, Mistress of Life" data-flag="@X" onclick="openSidebar('42_Zhycios, Mistress of Life',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\81_Underwater Court.jpg" id="81_Underwater Court" data-flag="@X" onclick="openSidebar('81_Underwater Court',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\122_Tormenting Likho.jpg" id="122_Tormenting Likho" data-flag="@X" onclick="openSidebar('122_Tormenting Likho',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\168_Young Diabolist.jpg" id="168_Young Diabolist" data-flag="@X" onclick="openSidebar('168_Young Diabolist',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\207_Wolven Storm.jpg" id="207_Wolven Storm" data-flag="@X" onclick="openSidebar('207_Wolven Storm',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\1_Ancestral Offering.jpg" id="1_Ancestral Offering" data-flag="@X" onclick="openSidebar('1_Ancestral Offering',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\45_Buyan Leviathan.jpg" id="45_Buyan Leviathan" data-flag="@X" onclick="openSidebar('45_Buyan Leviathan',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\85_Belogrod Stalker.jpg" id="85_Belogrod Stalker" data-flag="@X" onclick="openSidebar('85_Belogrod Stalker',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\129_Bomb Throw.jpg" id="129_Bomb Throw" data-flag="@X" onclick="openSidebar('129_Bomb Throw',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\208_Zielenn Dryad.jpg" id="208_Zielenn Dryad" data-flag="@X" onclick="openSidebar('208_Zielenn Dryad',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\2_Belogrod Griffin.jpg" id="2_Belogrod Griffin" data-flag="@X" onclick="openSidebar('2_Belogrod Griffin',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\46_Dirge for the Departed.jpg" id="46_Dirge for the Departed" data-flag="@X" onclick="openSidebar('46_Dirge for the Departed',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\88_Bogbound.jpg" id="88_Bogbound" data-flag="@X" onclick="openSidebar('88_Bogbound',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\130_Chortling.jpg" id="130_Chortling" data-flag="@X" onclick="openSidebar('130_Chortling',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\170_Arboreal Larva.jpg" id="170_Arboreal Larva" data-flag="@X" onclick="openSidebar('170_Arboreal Larva',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\4_Dazhbog's Gaze.jpg" id="4_Dazhbogs Gaze" data-flag="@X" onclick="openSidebar('4_Dazhbogs Gaze',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\48_Diver Drowner.jpg" id="48_Diver Drowner" data-flag="@X" onclick="openSidebar('48_Diver Drowner',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\89_Bonespinning.jpg" id="89_Bonespinning" data-flag="@X" onclick="openSidebar('89_Bonespinning',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\131_Civic Huntsman.jpg" id="131_Civic Huntsman" data-flag="@X" onclick="openSidebar('131_Civic Huntsman',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\173_Carnivorous Bloom.jpg" id="173_Carnivorous Bloom" data-flag="@X" onclick="openSidebar('173_Carnivorous Bloom',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\7_Disable.jpg" id="7_Disable" data-flag="@X" onclick="openSidebar('7_Disable',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\50_Fend Off the Evil Glare.jpg" id="50_Fend Off the Evil Glare" data-flag="@X" onclick="openSidebar('50_Fend Off the Evil Glare',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\91_Chernogaj Coven.jpg" id="91_Chernogaj Coven" data-flag="@X" onclick="openSidebar('91_Chernogaj Coven',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\132_Crib Sweep.jpg" id="132_Crib Sweep" data-flag="@X" onclick="openSidebar('132_Crib Sweep',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\174_Countryside Lindwurm.jpg" id="174_Countryside Lindwurm" data-flag="@X" onclick="openSidebar('174_Countryside Lindwurm',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\8_Eternal Bonds.jpg" id="8_Eternal Bonds" data-flag="@X" onclick="openSidebar('8_Eternal Bonds',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\51_Foglets.jpg" id="51_Foglets" data-flag="@X" onclick="openSidebar('51_Foglets',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\92_Chironex.jpg" id="92_Chironex" data-flag="@X" onclick="openSidebar('92_Chironex',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\134_Duck Hunter.jpg" id="134_Duck Hunter" data-flag="@X" onclick="openSidebar('134_Duck Hunter',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\176_Devanna's Boon.jpg" id="176_Devannas Boon" data-flag="@X" onclick="openSidebar('176_Devannas Boon',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\9_Faithless Exorcist.jpg" id="9_Faithless Exorcist" data-flag="@X" onclick="openSidebar('9_Faithless Exorcist',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\55_Grim Prognosis.jpg" id="55_Grim Prognosis" data-flag="@X" onclick="openSidebar('55_Grim Prognosis',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\93_Circle of Death.jpg" id="93_Circle of Death" data-flag="@X" onclick="openSidebar('93_Circle of Death',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\135_Equinox Festival.jpg" id="135_Equinox Festival" data-flag="@X" onclick="openSidebar('135_Equinox Festival',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\179_Equinox Celebrant.jpg" id="179_Equinox Celebrant" data-flag="@X" onclick="openSidebar('179_Equinox Celebrant',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\10_Fighting Spirit.jpg" id="10_Fighting Spirit" data-flag="@X" onclick="openSidebar('10_Fighting Spirit',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\58_Lubberkin.jpg" id="58_Lubberkin" data-flag="@X" onclick="openSidebar('58_Lubberkin',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\94_Cremate.jpg" id="94_Cremate" data-flag="@X" onclick="openSidebar('94_Cremate',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\137_Fading Ember-Bird.jpg" id="137_Fading Ember-Bird" data-flag="@X" onclick="openSidebar('137_Fading Ember-Bird',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\182_Hangry Bear.jpg" id="182_Hangry Bear" data-flag="@X" onclick="openSidebar('182_Hangry Bear',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\11_Forefathers' Guidance.jpg" id="11_Forefathers Guidance" data-flag="@X" onclick="openSidebar('11_Forefathers Guidance',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\60_Midnight Dancers.jpg" id="60_Midnight Dancers" data-flag="@X" onclick="openSidebar('60_Midnight Dancers',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\95_Crowmarsh Sybil.jpg" id="95_Crowmarsh Sybil" data-flag="@X" onclick="openSidebar('95_Crowmarsh Sybil',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\138_Fateweaver Rusalka.jpg" id="138_Fateweaver Rusalka" data-flag="@X" onclick="openSidebar('138_Fateweaver Rusalka',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\183_Haunt's End.jpg" id="183_Haunts End" data-flag="@X" onclick="openSidebar('183_Haunts End',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\14_Grandfather Moroz.jpg" id="14_Grandfather Moroz" data-flag="@X" onclick="openSidebar('14_Grandfather Moroz',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\61_Migratory Stork.jpg" id="61_Migratory Stork" data-flag="@X" onclick="openSidebar('61_Migratory Stork',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\97_Depart to Nawia.jpg" id="97_Depart to Nawia" data-flag="@X" onclick="openSidebar('97_Depart to Nawia',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\139_Fling.jpg" id="139_Fling" data-flag="@X" onclick="openSidebar('139_Fling',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\185_Hunting Territory.jpg" id="185_Hunting Territory" data-flag="@X" onclick="openSidebar('185_Hunting Territory',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\16_Henhouse Burglar.jpg" id="16_Henhouse Burglar" data-flag="@X" onclick="openSidebar('16_Henhouse Burglar',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\63_Moonlit Gamayun.jpg" id="63_Moonlit Gamayun" data-flag="@X" onclick="openSidebar('63_Moonlit Gamayun',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\98_Doomed Wanderer.jpg" id="98_Doomed Wanderer" data-flag="@X" onclick="openSidebar('98_Doomed Wanderer',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\140_Grave Looter.jpg" id="140_Grave Looter" data-flag="@X" onclick="openSidebar('140_Grave Looter',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\187_Leshy's Varmint.jpg" id="187_Leshys Varmint" data-flag="@X" onclick="openSidebar('187_Leshys Varmint',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\17_Intrepid Bogatyr.jpg" id="17_Intrepid Bogatyr" data-flag="@X" onclick="openSidebar('17_Intrepid Bogatyr',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\66_Otherworldly Possession.jpg" id="66_Otherworldly Possession" data-flag="@X" onclick="openSidebar('66_Otherworldly Possession',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\99_Dreadful Kikimora.jpg" id="99_Dreadful Kikimora" data-flag="@X" onclick="openSidebar('99_Dreadful Kikimora',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\143_Meteoric Ore Blade.jpg" id="143_Meteoric Ore Blade" data-flag="@X" onclick="openSidebar('143_Meteoric Ore Blade',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\188_Lesser Leshy.jpg" id="188_Lesser Leshy" data-flag="@X" onclick="openSidebar('188_Lesser Leshy',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\20_Lost Child.jpg" id="20_Lost Child" data-flag="@X" onclick="openSidebar('20_Lost Child',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\67_Path to Infinity.jpg" id="67_Path to Infinity" data-flag="@X" onclick="openSidebar('67_Path to Infinity',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\100_Forefathers' Eve.jpg" id="100_Forefathers Eve" data-flag="@X" onclick="openSidebar('100_Forefathers Eve',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\148_Perun's Lightning.jpg" id="148_Peruns Lightning" data-flag="@X" onclick="openSidebar('148_Peruns Lightning',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\192_Mire Reclamation.jpg" id="192_Mire Reclamation" data-flag="@X" onclick="openSidebar('192_Mire Reclamation',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\21_Lowlands Harvester.jpg" id="21_Lowlands Harvester" data-flag="@X" onclick="openSidebar('21_Lowlands Harvester',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\68_Rune Volkhv.jpg" id="68_Rune Volkhv" data-flag="@X" onclick="openSidebar('68_Rune Volkhv',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\105_Lake Lurker.jpg" id="105_Lake Lurker" data-flag="@X" onclick="openSidebar('105_Lake Lurker',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\150_Quilled Boar.jpg" id="150_Quilled Boar" data-flag="@X" onclick="openSidebar('150_Quilled Boar',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\193_Moulder.jpg" id="193_Moulder" data-flag="@X" onclick="openSidebar('193_Moulder',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\22_Monster Contract.jpg" id="22_Monster Contract" data-flag="@X" onclick="openSidebar('22_Monster Contract',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\71_Spirited Away.jpg" id="71_Spirited Away" data-flag="@X" onclick="openSidebar('71_Spirited Away',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\107_Midnight Wraith.jpg" id="107_Midnight Wraith" data-flag="@X" onclick="openSidebar('107_Midnight Wraith',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\153_She-Wolf.jpg" id="153_She-Wolf" data-flag="@X" onclick="openSidebar('153_She-Wolf',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\194_Necrogrowth Horror.jpg" id="194_Necrogrowth Horror" data-flag="@X" onclick="openSidebar('194_Necrogrowth Horror',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\24_Noonwraith Bride.jpg" id="24_Noonwraith Bride" data-flag="@X" onclick="openSidebar('24_Noonwraith Bride',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\73_Stribog's Breath.jpg" id="73_Stribogs Breath" data-flag="@X" onclick="openSidebar('73_Stribogs Breath',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\109_Morena's Grasp.jpg" id="109_Morenas Grasp" data-flag="@X" onclick="openSidebar('109_Morenas Grasp',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\157_Thrill of Possibility.jpg" id="157_Thrill of Possibility" data-flag="@X" onclick="openSidebar('157_Thrill of Possibility',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\196_Old-Growth Longlegs.jpg" id="196_Old-Growth Longlegs" data-flag="@X" onclick="openSidebar('196_Old-Growth Longlegs',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\25_Novice Huntsman.jpg" id="25_Novice Huntsman" data-flag="@X" onclick="openSidebar('25_Novice Huntsman',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\79_Undercourt Trickster.jpg" id="79_Undercourt Trickster" data-flag="@X" onclick="openSidebar('79_Undercourt Trickster',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\111_Mutual Destruction.jpg" id="111_Mutual Destruction" data-flag="@X" onclick="openSidebar('111_Mutual Destruction',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\159_Tiger Fiend.jpg" id="159_Tiger Fiend" data-flag="@X" onclick="openSidebar('159_Tiger Fiend',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\198_Pollenbeast.jpg" id="198_Pollenbeast" data-flag="@X" onclick="openSidebar('198_Pollenbeast',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\35_Turnip Smuggler.jpg" id="35_Turnip Smuggler" data-flag="@X" onclick="openSidebar('35_Turnip Smuggler',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\82_Undine's Snare.jpg" id="82_Undines Snare" data-flag="@X" onclick="openSidebar('82_Undines Snare',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\121_Spectral Barghest.jpg" id="121_Spectral Barghest" data-flag="@X" onclick="openSidebar('121_Spectral Barghest',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\163_Twig Shrapnel.jpg" id="163_Twig Shrapnel" data-flag="@X" onclick="openSidebar('163_Twig Shrapnel',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\200_Springtide Seer.jpg" id="200_Springtide Seer" data-flag="@X" onclick="openSidebar('200_Springtide Seer',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\37_Veil Breacher.jpg" id="37_Veil Breacher" data-flag="@X" onclick="openSidebar('37_Veil Breacher',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\83_Vodyanoi's Prey.jpg" id="83_Vodyanois Prey" data-flag="@X" onclick="openSidebar('83_Vodyanois Prey',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\124_Village Rites.jpg" id="124_Village Rites" data-flag="@X" onclick="openSidebar('124_Village Rites',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\166_Whim.jpg" id="166_Whim" data-flag="@X" onclick="openSidebar('166_Whim',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\201_Struggle for Survival.jpg" id="201_Struggle for Survival" data-flag="@X" onclick="openSidebar('201_Struggle for Survival',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\38_Village Pellar.jpg" id="38_Village Pellar" data-flag="@X" onclick="openSidebar('38_Village Pellar',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\84_Young Zagovorka.jpg" id="84_Young Zagovorka" data-flag="@X" onclick="openSidebar('84_Young Zagovorka',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\125_Yaga's Thrall.jpg" id="125_Yagas Thrall" data-flag="@X" onclick="openSidebar('125_Yagas Thrall',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\167_Yaremcha Houndmaster.jpg" id="167_Yaremcha Houndmaster" data-flag="@X" onclick="openSidebar('167_Yaremcha Houndmaster',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\206_Wintry Hibernation.jpg" id="206_Wintry Hibernation" data-flag="@X" onclick="openSidebar('206_Wintry Hibernation',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\211_Zyvia's Twofold Path.jpg" id="211_Zyvias Twofold Path" data-flag="@X" onclick="openSidebar('211_Zyvias Twofold Path',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\223_Nawian Gamayun.jpg" id="223_Nawian Gamayun" data-flag="@X" onclick="openSidebar('223_Nawian Gamayun',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\224_Nightmare Mirror.jpg" id="224_Nightmare Mirror" data-flag="@X" onclick="openSidebar('224_Nightmare Mirror',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\219_Fiendish Tutor.jpg" id="219_Fiendish Tutor" data-flag="@X" onclick="openSidebar('219_Fiendish Tutor',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\216_Collateral Takedown.jpg" id="216_Collateral Takedown" data-flag="@X" onclick="openSidebar('216_Collateral Takedown',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\212_Adaptive Fungus.jpg" id="212_Adaptive Fungus" data-flag="@X" onclick="openSidebar('212_Adaptive Fungus',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\226_Royal Apparition.jpg" id="226_Royal Apparition" data-flag="@X" onclick="openSidebar('226_Royal Apparition',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\229_Tactical Shark Chariot.jpg" id="229_Tactical Shark Chariot" data-flag="@X" onclick="openSidebar('229_Tactical Shark Chariot',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\215_Chernogaj Chort.jpg" id="215_Chernogaj Chort" data-flag="@X" onclick="openSidebar('215_Chernogaj Chort',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\213_Alkonost Caretaker.jpg" id="213_Alkonost Caretaker" data-flag="@X" onclick="openSidebar('213_Alkonost Caretaker',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\227_Seasoned Lumberjack.jpg" id="227_Seasoned Lumberjack" data-flag="@X" onclick="openSidebar('227_Seasoned Lumberjack',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\217_Death of the Deathless.jpg" id="217_Death of the Deathless" data-flag="@X" onclick="openSidebar('217_Death of the Deathless',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\231_Wicked Man.jpg" id="231_Wicked Man" data-flag="@X" onclick="openSidebar('231_Wicked Man',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\220_Foreman of Rot.jpg" id="220_Foreman of Rot" data-flag="@X" onclick="openSidebar('220_Foreman of Rot',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\230_Waligora and the Reavers.jpg" id="230_Waligora and the Reavers" data-flag="@X" onclick="openSidebar('230_Waligora and the Reavers',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\214_Bartek, Living Lore.jpg" id="214_Bartek, Living Lore" data-flag="@X" onclick="openSidebar('214_Bartek, Living Lore',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\233_Grave Warden.jpg" id="233_Grave Warden" data-flag="@X" onclick="openSidebar('233_Grave Warden',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\235_Medean Medusa.jpg" id="235_Medean Medusa" data-flag="@X" onclick="openSidebar('235_Medean Medusa',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\237_Necrodivination.jpg" id="237_Necrodivination" data-flag="@X" onclick="openSidebar('237_Necrodivination',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\234_Haze of Wrath.jpg" id="234_Haze of Wrath" data-flag="@X" onclick="openSidebar('234_Haze of Wrath',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\236_Natural Convergence.jpg" id="236_Natural Convergence" data-flag="@X" onclick="openSidebar('236_Natural Convergence',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\225_Outcast Zhret.jpg" id="225_Outcast Zhret" data-flag="@X" onclick="openSidebar('225_Outcast Zhret',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\222_Merfolk Magician.jpg" id="222_Merfolk Magician" data-flag="@X" onclick="openSidebar('222_Merfolk Magician',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\228_Sewer Swarm Queen.jpg" id="228_Sewer Swarm Queen" data-flag="@X" onclick="openSidebar('228_Sewer Swarm Queen',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\232_Witchhunter Veteran.jpg" id="232_Witchhunter Veteran" data-flag="@X" onclick="openSidebar('232_Witchhunter Veteran',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\218_Dryad Tutor.jpg" id="218_Dryad Tutor" data-flag="@X" onclick="openSidebar('218_Dryad Tutor',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\221_Jaga, Witch o' the Woods.jpg" id="221_Jaga, Witch o the Woods" data-flag="@X" onclick="openSidebar('221_Jaga, Witch o the Woods',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\239_Fern Flower.jpg" id="239_Fern Flower" data-flag="@X" onclick="openSidebar('239_Fern Flower',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\238_Endless Graves.jpg" id="238_Endless Graves" data-flag="@X" onclick="openSidebar('238_Endless Graves',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\242_Seven-League Boots.jpg" id="242_Seven-League Boots" data-flag="@X" onclick="openSidebar('242_Seven-League Boots',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\240_Jump Scarecrow.jpg" id="240_Jump Scarecrow" data-flag="@X" onclick="openSidebar('240_Jump Scarecrow',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\241_Peasant's Scythe.jpg" id="241_Peasants Scythe" data-flag="@X" onclick="openSidebar('241_Peasants Scythe',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\243_Soul-Trap Ward.jpg" id="243_Soul-Trap Ward" data-flag="@X" onclick="openSidebar('243_Soul-Trap Ward',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\244_Triglaw Shrine.jpg" id="244_Triglaw Shrine" data-flag="@X" onclick="openSidebar('244_Triglaw Shrine',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\245_Witch's Mirror.jpg" id="245_Witchs Mirror" data-flag="@X" onclick="openSidebar('245_Witchs Mirror',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\250_Litter Cottage.jpg" id="250_Litter Cottage" data-flag="@X" onclick="openSidebar('250_Litter Cottage',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\248_Hermit Hideout.jpg" id="248_Hermit Hideout" data-flag="@X" onclick="openSidebar('248_Hermit Hideout',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\249_Hut of Horrors.jpg" id="249_Hut of Horrors" data-flag="@X" onclick="openSidebar('249_Hut of Horrors',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\246_Bald Mountain.jpg" id="246_Bald Mountain" data-flag="@X" onclick="openSidebar('246_Bald Mountain',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\247_Creeping Homestead.jpg" id="247_Creeping Homestead" data-flag="@X" onclick="openSidebar('247_Creeping Homestead',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\251_Valley of Death.jpg" id="251_Valley of Death" data-flag="@X" onclick="openSidebar('251_Valley of Death',false)"></div>
+				<div class="container"><img alt="/sets\ZOR-files\img\252_Wayfarer's Shrine.jpg" id="252_Wayfarers Shrine" data-flag="@X" onclick="openSidebar('252_Wayfarers Shrine',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+			let random_card = card_list_arrayified[i];
+
+			const url = new URL('card', window.location.origin);
+			const params = {
+				set: random_card.set,
+				num: random_card.number,
+				name: random_card.card_name
+			}
+			for (const key in params) {
+				url.searchParams.append(key, params[key]);
+			}
+
+			window.location.href = url;
+		}
+	</script>
+</body>
+</html>
